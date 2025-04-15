@@ -1,1 +1,2 @@
-
+Creation de la base de donnee sql
+connexion a la BD
