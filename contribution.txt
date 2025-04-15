@@ -1,2 +1,22 @@
 Creation de la base de donnee sql
+1ere etape : identification des classes indispensable pour notre projet
+
+2e : identification des des relations entre elles
+
+3e :creaton de la base de donnee avec mysql , des tables qui feront offices de classe en java  et insertions de certaines donnees
+
+
+
+
+
+
 connexion a la BD
+etape 1: telechargement de mysql connector
+
+etape 2 :telecharger le jar de mysql conector
+
+etape 3:creation d un dossier lib qui va acceuillir le dossier jar et les fichier externe a java
+
+etape 4:ajouter le chemin dans intellij 
+
+etape : ecrire le code java pour la connection a la base de donnee dans la classe connectionDB
