@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="447.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controleurs.RegisterController">
+   <children>
+      <TextField fx:id="tNom" layoutX="88.0" layoutY="84.0" />
+      <TextField fx:id="tMailIns" layoutX="88.0" layoutY="155.0" onKeyTyped="#verifMail" />
+      <Label layoutX="99.0" layoutY="53.0" text="Nom" />
+      <Label layoutX="100.0" layoutY="127.0" prefHeight="17.0" prefWidth="51.0" text="Email" />
+      <Label layoutX="99.0" layoutY="191.0" prefHeight="17.0" prefWidth="85.0" text="Mot de passe" />
+      <Button fx:id="btnIns" layoutX="94.0" layoutY="264.0" mnemonicParsing="false" onAction="#inscriptionButton" prefHeight="25.0" prefWidth="95.0" text="Inscription" />
+      <Label fx:id="tstatutIns" layoutX="224.0" layoutY="289.0" prefHeight="17.0" prefWidth="110.0" />
+      <PasswordField fx:id="tMDP" layoutX="88.0" layoutY="218.0" />
+      <Button fx:id="btnConnex" layoutX="94.0" layoutY="303.0" mnemonicParsing="false" onAction="#connexionScene" prefHeight="25.0" prefWidth="95.0" text="Connexion" />
+   </children>
+</Pane>
