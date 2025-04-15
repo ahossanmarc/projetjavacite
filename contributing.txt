@@ -1,1 +1,9 @@
-je géré la reservation et les exceptions liées grace à son controlleur
+Étape 1: Création de l'interface graphique pour la connexion et l'inscription avec Scene Builder
+Étape 2 : Création du projet sur IntelliJ avec téléchargement et installation des modules nécessaires disponible depuis MAVEN ( javafx , itext, mysql connector )
+
+Étape 3 :  
+-	l'utilisateur effectue une réservation à partir des informations disponibles à savoir le type de service la date et puis l'heure véhicule, 
+-	On applique des règles de gestion pour empêcher que l'utilisateur ne saisisse des valeurs aberrantes ( heure supérieur à  24h par exemple )
+-	Une fois toutes ces vérifications efféctuées , on permet la réservation ( clic du bouton réserver )  
+
+Étape 4 : Une fois toutes ces vérifications effectuées , un billet est généré au format PDF avec l'ensemble des informations choisies par l'utilisateur et qui sont sauvegardées dans la base de données 
