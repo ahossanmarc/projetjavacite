@@ -1,7 +1,8 @@
 Creation de la base de donnee sql
+
 1ere etape : identification des classes indispensable pour notre projet
 
-2e : identification des des relations entre elles
+2e : identification des  relations entre elles
 
 3e :creaton de la base de donnee avec mysql , des tables qui feront offices de classe en java  et insertions de certaines donnees
 
