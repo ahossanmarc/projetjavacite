@@ -30,7 +30,7 @@ Ce projet permet de montrer comment créer une application Java avec interface g
 - Application prête pour une utilisation locale ou déploiement simple
 
 ## Technologies utilisées
-- Java 17 (ou version utilisée)  
+- Java JDK 24 (ou version utilisée)  
 - JavaFX pour l’interface graphique  
 - Maven pour la gestion du projet et des dépendances  
 - Base de données MySQL   
