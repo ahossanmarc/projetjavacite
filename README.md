@@ -36,7 +36,7 @@ Ce projet permet de montrer comment créer une application Java avec interface g
 - Base de données MySQL   
 - Scene Builder pour la création des interfaces
 
-## Auteur
+## Auteurs
 - Participants :
     - Tanoh Cédrick 2741679@collegelacite.ca
     - Sorel Aniel   2738286@collegelacite.ca
